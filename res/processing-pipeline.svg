@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 610" role="img" aria-labelledby="title desc">
+  <title id="title">Notebook recognition and presentation-control pipeline</title>
+  <desc id="desc">Four tracking inputs plus double-tap sound enter input fusion, followed by OART, content matching, output, and slide control. A tracker database and content feed the middle stages.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8f4ea; }
+      .card { fill: #fffdf7; stroke: #bdc5ba; stroke-width: 2; }
+      .side { fill: #eef1df; stroke: #8ca083; stroke-width: 2; }
+      .title { fill: #183a3e; font: 700 26px Georgia, serif; }
+      .label { fill: #183a3e; font: 700 19px Georgia, serif; }
+      .text { fill: #345459; font: 16px Georgia, serif; }
+      .small { fill: #536668; font: italic 15px Georgia, serif; }
+      .num { fill: #a45139; font: 700 18px Georgia, serif; }
+      .line { fill: none; stroke: #245b61; stroke-width: 2.5; }
+      .merge { fill: none; stroke: #245b61; stroke-width: 2.5; }
+      .tip { fill: #245b61; }
+    </style>
+  </defs>
+  <rect class="bg" width="1320" height="610"/>
+  <text class="title" x="32" y="44">Sensor inputs to slide control</text>
+  <text class="small" x="32" y="69">The notebook does not expand "OART"; this label is intentionally unchanged.</text>
+
+  <rect class="card" x="32" y="105" width="229" height="68" rx="11"/>
+  <text class="num" x="46" y="145">1</text><text class="label" x="76" y="145">Hand tracking</text>
+  <rect class="card" x="32" y="191" width="229" height="68" rx="11"/>
+  <text class="num" x="46" y="230">2</text><text class="label" x="76" y="230">Anchor / ArUco</text>
+  <text class="text" x="77" y="251">id48 marker</text>
+  <rect class="card" x="32" y="277" width="229" height="68" rx="11"/>
+  <text class="num" x="46" y="318">3</text><text class="label" x="76" y="318">Body tracking</text>
+  <text class="text" x="76" y="339">(optional)</text>
+  <rect class="card" x="32" y="363" width="229" height="68" rx="11"/>
+  <text class="num" x="46" y="404">4</text><text class="label" x="76" y="404">Gesture / sEMG</text>
+  <text class="text" x="76" y="425">(optional)</text>
+
+  <path class="merge" d="M261 139h28v258h-28 M261 225h28 M261 311h28"/>
+  <path class="line" d="M289 269h91"/>
+  <rect class="card" x="380" y="218" width="162" height="104" rx="12"/>
+  <text class="label" x="410" y="258">Input</text><text class="label" x="410" y="285">fusion</text>
+  <path class="line" d="M542 270h65"/>
+  <rect class="card" x="607" y="218" width="132" height="104" rx="12"/>
+  <text class="label" x="641" y="278">OART</text>
+  <path class="line" d="M739 270h51"/>
+  <rect class="card" x="790" y="218" width="171" height="104" rx="12"/>
+  <text class="label" x="815" y="258">Content</text><text class="label" x="815" y="285">matching</text>
+  <path class="line" d="M961 270h51"/>
+  <rect class="card" x="1012" y="218" width="124" height="104" rx="12"/>
+  <text class="label" x="1033" y="278">Output</text>
+  <path class="line" d="M1136 270h50"/>
+  <rect class="card" x="1186" y="218" width="108" height="104" rx="12"/>
+  <text class="label" x="1200" y="257">Slide</text><text class="label" x="1199" y="284">control</text>
+
+  <rect class="side" x="350" y="405" width="224" height="76" rx="11"/>
+  <text class="label" x="373" y="435">Sound</text>
+  <text class="text" x="373" y="460">(double tap)</text>
+  <path class="line" d="M461 405v-83"/>
+  <rect class="side" x="584" y="405" width="181" height="111" rx="11"/>
+  <text class="label" x="604" y="436">Tracker ID</text>
+  <text class="text" x="604" y="461">&amp; pose matching</text>
+  <text class="text" x="604" y="486">DB</text>
+  <path class="line" d="M675 405v-83"/>
+  <rect class="side" x="790" y="405" width="171" height="76" rx="11"/>
+  <text class="label" x="808" y="436">Content</text>
+  <text class="text" x="808" y="461">(PPT + PDF)</text>
+  <path class="line" d="M875 405v-83"/>
+  <text class="small" x="1038" y="367">HDMI / video in sketch</text>
+  <path class="tip" d="M380 269l-10 -6v12z M607 270l-10 -6v12z M790 270l-10 -6v12z M1012 270l-10 -6v12z M1186 270l-10 -6v12z M461 322l-6 11h12z M675 322l-6 11h12z M875 322l-6 11h12z"/>
+</svg>

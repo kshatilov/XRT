@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 270" role="img" aria-labelledby="title desc">
+  <title id="title">Tentative timeline from the notebook</title>
+  <desc id="desc">Four handwritten milestones: 04 Dec quick and dirty prototype, 20 Dec projection working, 15 Jan Camera and OART, 31 Jan showcase. No year shown.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8f4ea; }
+      .title { fill: #183a3e; font: 700 25px Georgia, serif; }
+      .label { fill: #183a3e; font: 700 17px Georgia, serif; }
+      .date { fill: #a45139; font: 700 17px Georgia, serif; }
+      .small { fill: #536668; font: italic 14px Georgia, serif; }
+      .line { fill: none; stroke: #245b61; stroke-width: 3; }
+      .tick { stroke: #245b61; stroke-width: 2; }
+      .dot { fill: #245b61; }
+    </style>
+  </defs>
+  <rect class="bg" width="980" height="270"/>
+  <text class="title" x="32" y="43">Timeline - tentative notebook reading</text>
+  <text class="small" x="32" y="65">Dates have no visible year. "Camera &amp; OART" is an uncertain reading.</text>
+  <path class="line" d="M65 154H936"/>
+  <path d="M936 154l-12 -7v14z" fill="#245b61"/>
+  <circle class="dot" cx="160" cy="154" r="6"/>
+  <circle class="dot" cx="375" cy="154" r="6"/>
+  <circle class="dot" cx="620" cy="154" r="6"/>
+  <circle class="dot" cx="838" cy="154" r="6"/>
+  <path class="tick" d="M160 121v65 M375 121v65 M620 121v65 M838 121v65"/>
+  <text class="label" x="69" y="101">1. Quick &amp; dirty</text>
+  <text class="label" x="92" y="122">prototype</text>
+  <text class="date" x="130" y="216">04 Dec</text>
+  <text class="label" x="319" y="201">2. Projection</text>
+  <text class="label" x="337" y="222">working</text>
+  <text class="date" x="343" y="111">20 Dec</text>
+  <text class="label" x="555" y="102">3. Camera</text>
+  <text class="label" x="559" y="123">&amp; OART [?]</text>
+  <text class="date" x="588" y="216">15 Jan</text>
+  <text class="label" x="798" y="201">4. Show</text>
+  <text class="label" x="805" y="222">Case</text>
+  <text class="date" x="805" y="111">31 Jan</text>
+</svg>

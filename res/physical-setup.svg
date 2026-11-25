@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 670" role="img" aria-labelledby="title desc">
+  <title id="title">Physical devices and output paths</title>
+  <desc id="desc">The notebook shows book regions and glasses feeding a phone or laptop and room projector; an overhead third-person camera feeds a separate projective-overlay branch.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8f4ea; }
+      .card { fill: #fffdf7; stroke: #bdc5ba; stroke-width: 2; }
+      .accent { fill: #eef1df; stroke: #8ca083; stroke-width: 2; }
+      .title { fill: #183a3e; font: 700 26px Georgia, serif; }
+      .section { fill: #183a3e; font: 700 18px Georgia, serif; }
+      .text { fill: #234b50; font: 17px Georgia, serif; }
+      .small { fill: #536668; font: 15px Georgia, serif; }
+      .line { fill: none; stroke: #245b61; stroke-width: 2.5; }
+      .dash { fill: none; stroke: #245b61; stroke-width: 2.5; stroke-dasharray: 7 6; }
+      .tip { fill: #245b61; }
+      .num { fill: #a45139; font: 700 17px Georgia, serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="670"/>
+  <text class="title" x="35" y="44">The book / presenter notes - devices in the sketch</text>
+  <text class="small" x="35" y="69">Solid paths show the presentation setup; the dashed path shows the projective-overlay branch.</text>
+
+  <rect class="card" x="35" y="115" width="244" height="176" rx="14"/>
+  <text class="num" x="52" y="143">1</text>
+  <text class="section" x="82" y="143">Open book / notes</text>
+  <rect class="accent" x="55" y="165" width="87" height="40" rx="4"/>
+  <rect class="accent" x="55" y="214" width="87" height="40" rx="4"/>
+  <rect class="accent" x="153" y="165" width="103" height="89" rx="4"/>
+  <text class="text" x="83" y="192">A1</text>
+  <text class="text" x="83" y="241">A2</text>
+  <text class="text" x="186" y="205">A3</text>
+  <path class="line" d="M258 271 216 219"/>
+  <text class="small" x="42" y="281">finger points to A3</text>
+
+  <rect class="card" x="335" y="125" width="216" height="95" rx="14"/>
+  <text class="num" x="351" y="152">2</text>
+  <text class="section" x="382" y="153">Smartglasses</text>
+  <text class="small" x="352" y="186">2x video + audio</text>
+  <path class="line" d="M279 172H335"/>
+  <path class="line" d="M551 151 628 142"/>
+  <path class="line" d="M551 195 628 262"/>
+  <text class="small" x="566" y="112">WiFi / BT</text>
+
+  <rect class="card" x="628" y="103" width="204" height="97" rx="14"/>
+  <text class="num" x="647" y="133">3</text>
+  <text class="section" x="675" y="134">Phone</text>
+  <text class="small" x="647" y="166">compute / relay</text>
+  <rect class="card" x="628" y="228" width="204" height="97" rx="14"/>
+  <text class="num" x="647" y="258">4</text>
+  <text class="section" x="675" y="259">Laptop</text>
+  <text class="small" x="647" y="291">compute / relay</text>
+  <text class="section" x="560" y="240">or</text>
+
+  <path class="line" d="M832 154 894 206"/>
+  <path class="line" d="M832 276 894 229"/>
+  <rect class="card" x="894" y="172" width="191" height="99" rx="14"/>
+  <text class="num" x="912" y="201">5</text>
+  <text class="section" x="941" y="202">On-site</text>
+  <text class="section" x="912" y="229">video projector</text>
+  <text class="small" x="845" y="309">HDMI (laptop path)</text>
+  <path class="line" d="M991 271v75"/>
+  <rect class="accent" x="892" y="346" width="193" height="93" rx="9"/>
+  <text class="section" x="929" y="379">Screen: A3</text>
+  <text class="small" x="923" y="410">On-site audience</text>
+
+  <rect class="card" x="38" y="395" width="249" height="102" rx="14"/>
+  <text class="section" x="55" y="427">Presenter's 3rd POV</text>
+  <text class="section" x="55" y="453">camera (overhead)</text>
+  <path class="line" d="M287 447H628"/>
+  <text class="small" x="364" y="434">3rd video (USB)</text>
+
+  <path class="dash" d="M156 497v94h362"/>
+  <rect class="accent" x="518" y="544" width="316" height="90" rx="14"/>
+  <text class="num" x="537" y="575">6</text>
+  <text class="section" x="568" y="576">Projective overlay</text>
+  <text class="small" x="538" y="607">over the book / table</text>
+
+  <path class="line" d="M730 325v150h168"/>
+  <rect class="card" x="898" y="458" width="187" height="99" rx="14"/>
+  <text class="section" x="915" y="490">Network</text>
+  <text class="small" x="915" y="518">remote / cloud</text>
+  <text class="small" x="915" y="538">conferencing (Zoom)</text>
+  <path class="tip" d="M216 219l12 3 -8 8z M335 172l-10 -6v12z M628 142l-10 -5 1 12z M628 262l-12 -2 8 -9z M894 206l-12 -2 8 -9z M894 229l-6 -11 -6 10z M991 346l-6 -11h12z M628 447l-10 -6v12z M518 591l-10 -6v12z M898 475l-10 -6v12z"/>
+</svg>
