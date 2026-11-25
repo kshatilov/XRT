@@ -4,11 +4,11 @@
 
 ## 1. Overview
 
-![Overview diagram](diagrams/reality-and-assets.svg)
+![Overview diagram](res/reality-and-assets.svg)
 
 ### Devices and audience
 
-![Editable redraw of the devices and two output paths](diagrams/physical-setup.svg)
+![Editable redraw of the devices and two output paths](res/physical-setup.svg)
 
 ### Processing sketch
 
@@ -19,7 +19,7 @@ Four numbered inputs converge on `Input fusion`:
 3. `body tracking (optional)`
 4. `gesture including sEMG tracking (optional)`
 
-![Editable redraw of the input-to-output pipeline](diagrams/processing-pipeline.svg)
+![Editable redraw of the input-to-output pipeline](res/processing-pipeline.svg)
 
 ### Challenges
 
@@ -31,7 +31,7 @@ Four numbered inputs converge on `Input fusion`:
 
 ### The timeline
 
-![Editable redraw of the tentative timeline](diagrams/timeline.svg)
+![Editable redraw of the tentative timeline](res/timeline.svg)
 
 ## 2. Concept
 
